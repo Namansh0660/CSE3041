@@ -11,3 +11,17 @@ the cost of setting up the lab is the cost of sum of cost of computers , the cos
 cost of computers = cost of computer * total no of computers
 cost of furnitures = cost of one table * no of tables + cost of one chair * no of chair
 labour cost = no of hours worked * wages per hours'''
+
+cost_of_one_computer = float(input("Enter the cost of one computer: "))
+total_number_of_computers = int(input("Enter the total number of computers: "))
+cost_of_one_table = float(input("Enter the cost of one table: "))
+number_of_tables = int(input("Enter the number of tables: "))
+cost_of_one_chair = float(input("Enter the cost of one chair: "))
+number_of_chairs = int(input("Enter the number of chairs: "))
+number_of_hours_worked = float(input("Enter the number of hours labours worked: "))
+wages_per_hour = float(input("Enter the wages per hour: "))
+cost_of_computers = cost_of_one_computer * total_number_of_computers
+cost_of_furniture = (cost_of_one_table * number_of_tables) + (cost_of_one_chair * number_of_chairs)
+labor_cost = number_of_hours_worked * wages_per_hour
+total_cost = cost_of_computers + cost_of_furniture + labor_cost
+print("Approximate cost of setting up the lab:",(format(total_cost,'.2f')))
