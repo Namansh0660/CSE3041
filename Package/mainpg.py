@@ -22,8 +22,8 @@ import mod2
 '''
 
 '''
-import mypackage.mod1 import abc
-import mypackage.mod2 import sum
+from mypackage.mod1 import abc
+from mypackage.mod2 import sum
 '''
 
 '''
