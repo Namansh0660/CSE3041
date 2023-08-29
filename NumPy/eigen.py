@@ -1,3 +1,4 @@
+import numpy as np
 a = np.array([[1,-2j], [2j,5]])
 print("\nArray is :",a)
 c,d = np.linalg.eigh(a)
