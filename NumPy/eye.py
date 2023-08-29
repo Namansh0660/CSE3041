@@ -1,0 +1,13 @@
+import numpy as np
+b=np.eye(3)
+print('\n',b)
+b=np.eye(3,dtype='int')
+print('\n',b)
+b=np.eye(3,k=0,dtype='int')
+print('\n',b)
+b=np.eye(3,k=1,dtype='int')
+print('\n',b)
+b=np.eye(3,k=-1,dtype='int')
+print('\n',b)
+b=np.eye(4,5,k=-1,dtype='int')
+print('\n',b)
