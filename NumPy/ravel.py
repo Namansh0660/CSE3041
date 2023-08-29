@@ -1,3 +1,4 @@
+import numpy as np
 x = np.array([[1, 3, 5], [11, 35, 56]])
 y=np.ravel(x)
 print('\n',y)
